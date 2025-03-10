@@ -10,3 +10,10 @@
 2025-03-10 17:18:42,680 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
 2025-03-10 17:18:42,681 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
 2025-03-10 17:18:42,682 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:33:42,823 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-10 17:33:43,445 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-10 17:33:43,446 - alert_manager - INFO - SMS alerts are disabled
+2025-03-10 17:33:43,446 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-10 17:38:43,478 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:38:43,479 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:43:43,517 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
