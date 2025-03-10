@@ -1,0 +1,34 @@
+2025-03-10 15:43:21,208 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:49:44,197 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:54:44,199 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:59:44,200 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:59:44,221 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:08:40,859 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:13:40,861 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:18:40,863 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:18:40,865 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:23:40,866 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:23:40,868 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:28:40,869 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:28:40,871 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:33:40,871 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:33:40,873 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:38:40,874 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:38:40,876 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:43:40,877 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:43:40,879 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:48:40,881 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:48:40,883 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:53:40,885 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:53:40,886 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:58:40,888 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:58:40,892 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 17:03:40,893 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 17:03:40,895 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 17:08:40,896 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 17:08:40,924 - anomaly_detector - INFO - Training anomaly detection model...
+2025-03-10 17:08:41,114 - anomaly_detector - INFO - Model saved to d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:13:41,154 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:18:42,671 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:23:42,707 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:28:42,738 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl

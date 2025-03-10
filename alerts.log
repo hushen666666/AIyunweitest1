@@ -1,0 +1,12 @@
+2025-03-10 15:38:21,205 - alert_manager - INFO - Configuration loaded from d:\Trae\test\AIyunwei\config\alerts.json
+2025-03-10 15:44:44,195 - alert_manager - INFO - Configuration loaded from d:\Trae\test\AIyunwei\config\alerts.json
+2025-03-10 16:03:40,857 - alert_manager - INFO - Configuration loaded from d:\Trae\test\AIyunwei\config\alerts.json
+2025-03-10 17:13:41,231 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-10 17:13:42,622 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-10 17:13:42,625 - alert_manager - INFO - SMS alerts are disabled
+2025-03-10 17:13:42,625 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-10 17:13:42,643 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:13:42,646 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:18:42,680 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:18:42,681 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:18:42,682 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)

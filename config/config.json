@@ -1,0 +1,16 @@
+{
+    "collection_interval": 60,
+    "anomaly_detection_interval": 300,
+    "prediction_interval": 3600,
+    "data_retention_days": 30,
+    "anomaly_model_path": "d:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl",
+    "prediction_model_path": "d:\\Trae\\test\\AIyunwei\\models\\prediction_model.h5",
+    "alert_config_path": "d:\\Trae\\test\\AIyunwei\\config\\alerts.json",
+    "data_path": "d:\\Trae\\test\\AIyunwei\\data\\metrics.csv",
+    "auto_remediation": true,
+    "thresholds": {
+        "cpu_percent": 90,
+        "memory_percent": 85,
+        "disk_usage": 90
+    }
+}

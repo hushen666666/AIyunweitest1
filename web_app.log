@@ -1,0 +1,109 @@
+2025-03-10 15:37:40,447 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.19:5000
+2025-03-10 15:37:40,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 15:37:40,453 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 15:37:42,631 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 15:37:42,633 - werkzeug - INFO -  * Debugger PIN: 311-220-975
+2025-03-10 15:37:46,824 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:37:46] "GET /?ide_webview_request_time=1741592266797 HTTP/1.1" 200 -
+2025-03-10 15:38:21,202 - ai_ops_controller - INFO - Configuration loaded from D:\Trae\test\AIyunwei\config\config.json
+2025-03-10 15:38:21,205 - alert_manager - INFO - Configuration loaded from d:\Trae\test\AIyunwei\config\alerts.json
+2025-03-10 15:38:21,206 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-10 15:38:21,206 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-10 15:38:21,206 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-10 15:38:21,207 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-10 15:38:21,207 - ai_ops_controller - INFO - All threads started
+2025-03-10 15:38:23,202 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:38:23] "POST /api/start HTTP/1.1" 200 -
+2025-03-10 15:38:23,209 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:38:23] "GET /api/status HTTP/1.1" 200 -
+2025-03-10 15:43:21,208 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:43:37,354 - werkzeug - INFO -  * Detected change in 'D:\\Trae\\test\\AIyunwei\\controller\\main_controller.py', reloading
+2025-03-10 15:43:37,864 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 15:43:40,159 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 15:43:40,161 - werkzeug - INFO -  * Debugger PIN: 311-220-975
+2025-03-10 15:44:16,558 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.19:5000
+2025-03-10 15:44:16,559 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-10 15:44:16,560 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 15:44:18,541 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 15:44:18,544 - werkzeug - INFO -  * Debugger PIN: 311-220-975
+2025-03-10 15:44:18,577 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:44:18] "GET /?ide_webview_request_time=1741592656941 HTTP/1.1" 200 -
+2025-03-10 15:44:19,420 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:44:19] "GET /?ide_webview_request_time=1741592659411 HTTP/1.1" 200 -
+2025-03-10 15:44:44,193 - ai_ops_controller - INFO - Configuration loaded from D:\Trae\test\AIyunwei\config\config.json
+2025-03-10 15:44:44,195 - alert_manager - INFO - Configuration loaded from d:\Trae\test\AIyunwei\config\alerts.json
+2025-03-10 15:44:44,195 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-10 15:44:44,196 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-10 15:44:44,196 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-10 15:44:44,197 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-10 15:44:44,197 - ai_ops_controller - INFO - All threads started
+2025-03-10 15:44:46,193 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:44:46] "POST /api/start HTTP/1.1" 200 -
+2025-03-10 15:44:46,200 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 15:44:46] "GET /api/status HTTP/1.1" 200 -
+2025-03-10 15:49:44,197 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:54:44,199 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:59:44,200 - anomaly_detector - ERROR - Error loading model: [Errno 2] No such file or directory: 'd:\\Trae\\test\\AIyunwei\\models\\anomaly_model.pkl'
+2025-03-10 15:59:44,221 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:01:18,736 - werkzeug - INFO -  * Detected change in 'D:\\Trae\\test\\AIyunwei\\models\\anomaly_detection.py', reloading
+2025-03-10 16:01:19,089 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 16:01:21,452 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 16:01:21,454 - werkzeug - INFO -  * Debugger PIN: 311-220-975
+2025-03-10 16:01:30,564 - werkzeug - INFO -  * Detected change in 'D:\\Trae\\test\\AIyunwei\\models\\anomaly_detection.py', reloading
+2025-03-10 16:01:30,922 - werkzeug - INFO -  * Restarting with stat
+2025-03-10 16:01:33,328 - werkzeug - WARNING -  * Debugger is active!
+2025-03-10 16:01:33,330 - werkzeug - INFO -  * Debugger PIN: 311-220-975
+2025-03-10 16:03:16,879 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:16] "GET /?ide_webview_request_time=1741593796865 HTTP/1.1" 200 -
+2025-03-10 16:03:40,856 - ai_ops_controller - INFO - Configuration loaded from D:\Trae\test\AIyunwei\config\config.json
+2025-03-10 16:03:40,857 - alert_manager - INFO - Configuration loaded from d:\Trae\test\AIyunwei\config\alerts.json
+2025-03-10 16:03:40,857 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-10 16:03:40,858 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-10 16:03:40,858 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-10 16:03:40,859 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-10 16:03:40,859 - ai_ops_controller - INFO - All threads started
+2025-03-10 16:03:42,856 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:42] "POST /api/start HTTP/1.1" 200 -
+2025-03-10 16:03:42,862 - werkzeug - INFO - 127.0.0.1 - - [10/Mar/2025 16:03:42] "GET /api/status HTTP/1.1" 200 -
+2025-03-10 16:08:40,859 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:13:40,861 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:18:40,863 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:18:40,865 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:23:40,866 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:23:40,868 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:28:40,869 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:28:40,871 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:33:40,871 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:33:40,873 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:38:40,874 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:38:40,876 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:43:40,877 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:43:40,879 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:48:40,881 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:48:40,883 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:53:40,885 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:53:40,886 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 16:58:40,888 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 16:58:40,892 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 17:03:40,893 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 17:03:40,895 - anomaly_detector - ERROR - Model not trained or loaded
+2025-03-10 17:04:40,862 - predictive_analytics - ERROR - Model not trained or loaded
+2025-03-10 17:08:40,896 - anomaly_detector - INFO - Model file not found at d:\Trae\test\AIyunwei\models\anomaly_model.pkl, will train a new model
+2025-03-10 17:08:40,924 - anomaly_detector - INFO - Training anomaly detection model...
+2025-03-10 17:08:41,114 - anomaly_detector - INFO - Model saved to d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:13:41,154 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:13:41,163 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:08:45.748165', 'cpu_percent': 35.8, 'memory_percent': 60.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6443278154, 'bytes_recv': 25941772196, 'packets_sent': 36609584, 'packets_recv': 3186824, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:13:41,231 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-10 17:13:42,622 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-10 17:13:42,625 - alert_manager - INFO - SMS alerts are disabled
+2025-03-10 17:13:42,625 - alert_manager - INFO - Alert triggered: [—œ÷ÿ] œµÕ≥“Ï≥£––Œ™ºÏ≤‚ (Email: False, Webhook: False, SMS: False)
+2025-03-10 17:13:42,642 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:09:46.760982', 'cpu_percent': 67.4, 'memory_percent': 61.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6445289515, 'bytes_recv': 25951148729, 'packets_sent': 36618614, 'packets_recv': 3197917, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:13:42,643 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:13:42,645 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:10:47.779205', 'cpu_percent': 27.1, 'memory_percent': 63.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6446209750, 'bytes_recv': 25952709572, 'packets_sent': 36622194, 'packets_recv': 3203319, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:13:42,646 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:18:42,671 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:18:42,679 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:08:45.748165', 'cpu_percent': 35.8, 'memory_percent': 60.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6443278154, 'bytes_recv': 25941772196, 'packets_sent': 36609584, 'packets_recv': 3186824, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:18:42,680 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:18:42,680 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:09:46.760982', 'cpu_percent': 67.4, 'memory_percent': 61.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6445289515, 'bytes_recv': 25951148729, 'packets_sent': 36618614, 'packets_recv': 3197917, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:18:42,681 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:18:42,681 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:10:47.779205', 'cpu_percent': 27.1, 'memory_percent': 63.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6446209750, 'bytes_recv': 25952709572, 'packets_sent': 36622194, 'packets_recv': 3203319, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:18:42,682 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-10 17:23:42,707 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl
+2025-03-10 17:28:42,738 - anomaly_detector - INFO - Model loaded from d:\Trae\test\AIyunwei\models\anomaly_model.pkl

@@ -1,0 +1,24 @@
+2025-03-10 15:38:21,202 - ai_ops_controller - INFO - Configuration loaded from D:\Trae\test\AIyunwei\config\config.json
+2025-03-10 15:38:21,206 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-10 15:38:21,206 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-10 15:38:21,206 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-10 15:38:21,207 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-10 15:38:21,207 - ai_ops_controller - INFO - All threads started
+2025-03-10 15:44:44,193 - ai_ops_controller - INFO - Configuration loaded from D:\Trae\test\AIyunwei\config\config.json
+2025-03-10 15:44:44,195 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-10 15:44:44,196 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-10 15:44:44,196 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-10 15:44:44,197 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-10 15:44:44,197 - ai_ops_controller - INFO - All threads started
+2025-03-10 16:03:40,856 - ai_ops_controller - INFO - Configuration loaded from D:\Trae\test\AIyunwei\config\config.json
+2025-03-10 16:03:40,857 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-10 16:03:40,858 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-10 16:03:40,858 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-10 16:03:40,859 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-10 16:03:40,859 - ai_ops_controller - INFO - All threads started
+2025-03-10 17:13:41,163 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:08:45.748165', 'cpu_percent': 35.8, 'memory_percent': 60.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6443278154, 'bytes_recv': 25941772196, 'packets_sent': 36609584, 'packets_recv': 3186824, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:13:42,642 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:09:46.760982', 'cpu_percent': 67.4, 'memory_percent': 61.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6445289515, 'bytes_recv': 25951148729, 'packets_sent': 36618614, 'packets_recv': 3197917, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:13:42,645 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:10:47.779205', 'cpu_percent': 27.1, 'memory_percent': 63.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6446209750, 'bytes_recv': 25952709572, 'packets_sent': 36622194, 'packets_recv': 3203319, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:18:42,679 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:08:45.748165', 'cpu_percent': 35.8, 'memory_percent': 60.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6443278154, 'bytes_recv': 25941772196, 'packets_sent': 36609584, 'packets_recv': 3186824, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:18:42,680 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:09:46.760982', 'cpu_percent': 67.4, 'memory_percent': 61.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6445289515, 'bytes_recv': 25951148729, 'packets_sent': 36618614, 'packets_recv': 3197917, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-10 17:18:42,681 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-10T17:10:47.779205', 'cpu_percent': 27.1, 'memory_percent': 63.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6446209750, 'bytes_recv': 25952709572, 'packets_sent': 36622194, 'packets_recv': 3203319, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
