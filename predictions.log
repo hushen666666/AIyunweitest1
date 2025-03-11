@@ -1,1 +1,55 @@
 2025-03-10 17:04:40,862 - predictive_analytics - ERROR - Model not trained or loaded
+2025-03-11 10:53:17,439 - predictive_analytics - INFO - Model saved to models/prediction_model.h5
+2025-03-11 10:58:51,613 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 10:59:37,927 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 11:58:51,631 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 11:58:51,633 - predictive_analytics - ERROR - Error making prediction: This MinMaxScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-11 11:58:52,268 - predictive_analytics - ERROR - Error plotting forecast: too many indices for array: array is 1-dimensional, but 2 were indexed
+2025-03-11 11:59:37,947 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 11:59:37,950 - predictive_analytics - ERROR - Error making prediction: This MinMaxScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-11 11:59:38,133 - predictive_analytics - ERROR - Error plotting forecast: too many indices for array: array is 1-dimensional, but 2 were indexed
+2025-03-11 12:58:52,289 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 12:59:38,160 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 13:16:01,642 - predictive_analytics - ERROR - Scaler file not found. Please train the model first.
+2025-03-11 13:17:19,906 - predictive_analytics - ERROR - Scaler file not found. Please train the model first.
+2025-03-11 13:22:33,262 - predictive_analytics - INFO - Model saved to models/prediction_model.h5
+2025-03-11 13:22:33,262 - predictive_analytics - INFO - Scaler saved to models\scaler.pkl
+2025-03-11 13:25:56,852 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 13:25:56,870 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 14:25:56,871 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 14:25:56,889 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 14:25:57,311 - predictive_analytics - INFO - Forecast plot saved to forecast.png
+2025-03-11 14:42:31,251 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 14:42:31,279 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 14:45:00,903 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 14:45:00,932 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 14:50:27,705 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 14:50:27,728 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 14:56:17,741 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 14:56:17,759 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 14:57:41,513 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 14:57:41,534 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 14:59:06,038 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 14:59:06,057 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 15:01:03,048 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 15:01:03,070 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 15:05:36,953 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 15:05:36,983 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 15:10:57,875 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 15:10:57,895 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 16:10:57,898 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 16:10:57,920 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 16:10:58,231 - predictive_analytics - INFO - Forecast plot saved to forecast.png
+2025-03-11 16:49:37,256 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 16:49:37,278 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 16:49:41,350 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 16:49:41,370 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 16:58:37,407 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 16:58:37,407 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 16:58:37,407 - predictive_analytics - INFO - Scaler loaded from d:\Trae\test\AIyunwei\models\scaler.pkl
+2025-03-11 16:58:37,423 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 16:58:37,423 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 16:58:37,423 - predictive_analytics - INFO - Model loaded from d:\Trae\test\AIyunwei\models\prediction_model.h5
+2025-03-11 17:49:37,280 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 17:49:37,304 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 17:49:37,634 - predictive_analytics - INFO - Forecast plot saved to forecast.png

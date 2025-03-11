@@ -1,0 +1,572 @@
+2025-03-11 10:55:32,421 - main - INFO - Starting AI Operations System
+2025-03-11 10:55:32,424 - alert_manager - INFO - Configuration loaded from config/alerts.json
+2025-03-11 10:55:32,425 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-11 10:55:32,426 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-11 10:55:32,427 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-11 10:55:32,427 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-11 10:55:32,427 - ai_ops_controller - INFO - All threads started
+2025-03-11 10:55:32,428 - main - INFO - Press Ctrl+C to stop
+2025-03-11 10:56:28,670 - main - INFO - Received shutdown signal
+2025-03-11 10:56:28,670 - ai_ops_controller - INFO - Stopping AI Operations System
+2025-03-11 10:56:33,441 - main - INFO - Received shutdown signal
+2025-03-11 10:56:33,441 - ai_ops_controller - WARNING - System is not running
+2025-03-11 10:56:33,441 - ai_ops_controller - WARNING - System is not running
+2025-03-11 10:56:33,441 - main - INFO - System shutdown complete
+2025-03-11 10:57:51,582 - main - INFO - Starting AI Operations System
+2025-03-11 10:57:51,584 - alert_manager - INFO - Configuration loaded from config/alerts.json
+2025-03-11 10:57:51,585 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-11 10:57:51,585 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-11 10:57:51,585 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-11 10:57:51,586 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-11 10:57:51,586 - ai_ops_controller - INFO - All threads started
+2025-03-11 10:57:51,586 - main - INFO - Press Ctrl+C to stop
+2025-03-11 10:58:51,613 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 11:02:51,617 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:07:51,652 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:12:51,680 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:12:51,736 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:04:58.676512', 'cpu_percent': 38.6, 'memory_percent': 61.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6627154024, 'bytes_recv': 26233733505, 'packets_sent': 37411800, 'packets_recv': 896261, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:12:51,783 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 11:12:52,543 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 11:12:52,545 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 11:12:52,545 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 11:12:52,555 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:07:00.720339', 'cpu_percent': 43.9, 'memory_percent': 60.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6628855018, 'bytes_recv': 26236169268, 'packets_sent': 37419821, 'packets_recv': 907354, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:12:52,555 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:17:52,580 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:22:52,610 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:27:52,640 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:32:52,671 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:37:52,702 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:42:52,748 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:42:52,757 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:38:32.169446', 'cpu_percent': 46.7, 'memory_percent': 56.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6658921283, 'bytes_recv': 26268552438, 'packets_sent': 37534090, 'packets_recv': 1072206, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:42:52,802 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 11:42:53,478 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 11:42:53,481 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 11:42:53,482 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 11:42:53,482 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:40:34.198578', 'cpu_percent': 42.0, 'memory_percent': 53.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6660609894, 'bytes_recv': 26270256763, 'packets_sent': 37540462, 'packets_recv': 1081270, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:42:53,482 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:42:53,483 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:41:35.211015', 'cpu_percent': 39.3, 'memory_percent': 54.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6661411343, 'bytes_recv': 26271142224, 'packets_sent': 37543603, 'packets_recv': 1086053, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:42:53,483 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:47:53,522 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:47:53,531 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:38:32.169446', 'cpu_percent': 46.7, 'memory_percent': 56.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6658921283, 'bytes_recv': 26268552438, 'packets_sent': 37534090, 'packets_recv': 1072206, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:47:53,532 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:47:53,533 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:40:34.198578', 'cpu_percent': 42.0, 'memory_percent': 53.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6660609894, 'bytes_recv': 26270256763, 'packets_sent': 37540462, 'packets_recv': 1081270, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:47:53,534 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:47:53,535 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:41:35.211015', 'cpu_percent': 39.3, 'memory_percent': 54.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6661411343, 'bytes_recv': 26271142224, 'packets_sent': 37543603, 'packets_recv': 1086053, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:47:53,536 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:47:53,537 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:43:37.245083', 'cpu_percent': 44.3, 'memory_percent': 53.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6663083654, 'bytes_recv': 26272733476, 'packets_sent': 37549815, 'packets_recv': 1094431, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:47:53,540 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:47:53,541 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:45:39.277289', 'cpu_percent': 45.7, 'memory_percent': 53.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6664687813, 'bytes_recv': 26274474205, 'packets_sent': 37556067, 'packets_recv': 1103297, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:47:53,541 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:52:53,586 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:52:53,597 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:43:37.245083', 'cpu_percent': 44.3, 'memory_percent': 53.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6663083654, 'bytes_recv': 26272733476, 'packets_sent': 37549815, 'packets_recv': 1094431, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:52:53,598 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:52:53,599 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:45:39.277289', 'cpu_percent': 45.7, 'memory_percent': 53.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6664687813, 'bytes_recv': 26274474205, 'packets_sent': 37556067, 'packets_recv': 1103297, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:52:53,600 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:52:53,601 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:52:46.382030', 'cpu_percent': 40.0, 'memory_percent': 52.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6670402117, 'bytes_recv': 26280376119, 'packets_sent': 37577922, 'packets_recv': 1135605, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:52:53,602 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:57:53,627 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 11:57:53,637 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:52:46.382030', 'cpu_percent': 40.0, 'memory_percent': 52.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6670402117, 'bytes_recv': 26280376119, 'packets_sent': 37577922, 'packets_recv': 1135605, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:57:53,680 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 11:57:54,321 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 11:57:54,324 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 11:57:54,324 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 11:57:54,326 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:53:47.402880', 'cpu_percent': 55.0, 'memory_percent': 53.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6671299706, 'bytes_recv': 26281243073, 'packets_sent': 37581118, 'packets_recv': 1139974, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 11:57:54,328 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 11:58:51,631 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 11:58:51,633 - predictive_analytics - ERROR - Error making prediction: This MinMaxScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-03-11 11:58:52,268 - predictive_analytics - ERROR - Error plotting forecast: too many indices for array: array is 1-dimensional, but 2 were indexed
+2025-03-11 12:02:54,353 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:02:54,359 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:52:46.382030', 'cpu_percent': 40.0, 'memory_percent': 52.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6670402117, 'bytes_recv': 26280376119, 'packets_sent': 37577922, 'packets_recv': 1135605, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:02:54,360 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:02:54,361 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T11:53:47.402880', 'cpu_percent': 55.0, 'memory_percent': 53.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6671299706, 'bytes_recv': 26281243073, 'packets_sent': 37581118, 'packets_recv': 1139974, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:02:54,361 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:07:54,384 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:07:54,391 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:03:57.541646', 'cpu_percent': 2.7, 'memory_percent': 51.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6679788148, 'bytes_recv': 26290044612, 'packets_sent': 37613092, 'packets_recv': 1185046, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:07:54,392 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:07:54,392 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:07:00.577918', 'cpu_percent': 3.3, 'memory_percent': 51.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6682419733, 'bytes_recv': 26292679241, 'packets_sent': 37622902, 'packets_recv': 1198291, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:07:54,393 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:12:54,427 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:12:54,439 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:03:57.541646', 'cpu_percent': 2.7, 'memory_percent': 51.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6679788148, 'bytes_recv': 26290044612, 'packets_sent': 37613092, 'packets_recv': 1185046, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:12:54,485 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 12:12:55,137 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 12:12:55,139 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 12:12:55,140 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 12:12:55,140 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:07:00.577918', 'cpu_percent': 3.3, 'memory_percent': 51.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6682419733, 'bytes_recv': 26292679241, 'packets_sent': 37622902, 'packets_recv': 1198291, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:12:55,141 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:12:55,142 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:08:01.589242', 'cpu_percent': 46.6, 'memory_percent': 53.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6683318426, 'bytes_recv': 26293651696, 'packets_sent': 37626151, 'packets_recv': 1203022, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:12:55,142 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:17:55,168 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:17:55,177 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:08:01.589242', 'cpu_percent': 46.6, 'memory_percent': 53.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6683318426, 'bytes_recv': 26293651696, 'packets_sent': 37626151, 'packets_recv': 1203022, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:17:55,178 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:17:55,178 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:16:09.706921', 'cpu_percent': 37.4, 'memory_percent': 53.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6690537666, 'bytes_recv': 26305405139, 'packets_sent': 37654517, 'packets_recv': 1243450, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:17:55,179 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:22:55,235 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:22:55,248 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:16:09.706921', 'cpu_percent': 37.4, 'memory_percent': 53.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6690537666, 'bytes_recv': 26305405139, 'packets_sent': 37654517, 'packets_recv': 1243450, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:22:55,249 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:22:55,250 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:20:13.762446', 'cpu_percent': 45.7, 'memory_percent': 54.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6694056953, 'bytes_recv': 26308973247, 'packets_sent': 37667405, 'packets_recv': 1261898, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:22:55,251 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:27:55,275 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:27:55,285 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:20:13.762446', 'cpu_percent': 45.7, 'memory_percent': 54.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6694056953, 'bytes_recv': 26308973247, 'packets_sent': 37667405, 'packets_recv': 1261898, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:27:55,329 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 12:27:56,211 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 12:27:56,214 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 12:27:56,215 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 12:27:56,216 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:25:18.829052', 'cpu_percent': 49.9, 'memory_percent': 53.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6698406111, 'bytes_recv': 26313531989, 'packets_sent': 37683679, 'packets_recv': 1284709, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:27:56,217 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:27:56,218 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:26:19.849223', 'cpu_percent': 45.3, 'memory_percent': 54.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6699253282, 'bytes_recv': 26314443932, 'packets_sent': 37686930, 'packets_recv': 1289354, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:27:56,218 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:32:56,250 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:32:56,258 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:25:18.829052', 'cpu_percent': 49.9, 'memory_percent': 53.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6698406111, 'bytes_recv': 26313531989, 'packets_sent': 37683679, 'packets_recv': 1284709, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:32:56,259 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:32:56,259 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:26:19.849223', 'cpu_percent': 45.3, 'memory_percent': 54.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6699253282, 'bytes_recv': 26314443932, 'packets_sent': 37686930, 'packets_recv': 1289354, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:32:56,260 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:32:56,260 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:30:23.905385', 'cpu_percent': 42.3, 'memory_percent': 54.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6702769369, 'bytes_recv': 26318134401, 'packets_sent': 37699765, 'packets_recv': 1309012, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:32:56,260 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:37:56,285 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:37:56,293 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:30:23.905385', 'cpu_percent': 42.3, 'memory_percent': 54.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6702769369, 'bytes_recv': 26318134401, 'packets_sent': 37699765, 'packets_recv': 1309012, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:37:56,293 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:37:56,294 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T12:33:26.955594', 'cpu_percent': 45.5, 'memory_percent': 54.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6705281282, 'bytes_recv': 26320771840, 'packets_sent': 37709429, 'packets_recv': 1321901, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 12:37:56,294 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 12:42:56,323 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 12:58:52,289 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 13:14:48,568 - main - INFO - Received shutdown signal
+2025-03-11 13:14:48,569 - ai_ops_controller - INFO - Stopping AI Operations System
+2025-03-11 13:14:53,569 - main - INFO - Received shutdown signal
+2025-03-11 13:14:53,569 - ai_ops_controller - WARNING - System is not running
+2025-03-11 13:14:53,570 - ai_ops_controller - WARNING - System is not running
+2025-03-11 13:14:53,570 - main - INFO - System shutdown complete
+2025-03-11 13:14:54,579 - main - INFO - Received shutdown signal
+2025-03-11 13:14:54,580 - ai_ops_controller - WARNING - System is not running
+2025-03-11 13:15:01,636 - main - INFO - Starting AI Operations System
+2025-03-11 13:15:01,639 - alert_manager - INFO - Configuration loaded from config/alerts.json
+2025-03-11 13:15:01,639 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-11 13:15:01,640 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-11 13:15:01,640 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-11 13:15:01,641 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-11 13:15:01,641 - ai_ops_controller - INFO - All threads started
+2025-03-11 13:15:01,641 - main - INFO - Press Ctrl+C to stop
+2025-03-11 13:16:01,642 - predictive_analytics - ERROR - Scaler file not found. Please train the model first.
+2025-03-11 13:20:01,669 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:24:56,847 - main - INFO - Starting AI Operations System
+2025-03-11 13:24:56,849 - alert_manager - INFO - Configuration loaded from config/alerts.json
+2025-03-11 13:24:56,850 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-11 13:24:56,850 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-11 13:24:56,851 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-11 13:24:56,851 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-11 13:24:56,851 - ai_ops_controller - INFO - All threads started
+2025-03-11 13:24:56,851 - main - INFO - Press Ctrl+C to stop
+2025-03-11 13:25:56,852 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 13:25:56,870 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 13:29:56,876 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:34:56,900 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:39:56,929 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:39:56,939 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:32:03.940829', 'cpu_percent': 41.2, 'memory_percent': 56.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6768866201, 'bytes_recv': 26387145864, 'packets_sent': 37931892, 'packets_recv': 1654971, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:39:56,989 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 13:39:57,641 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 13:39:57,643 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 13:39:57,643 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 13:39:57,643 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:35:06.980897', 'cpu_percent': 42.1, 'memory_percent': 56.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6771927951, 'bytes_recv': 26390277043, 'packets_sent': 37943378, 'packets_recv': 1672753, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:39:57,644 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:39:57,644 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:38:10.027215', 'cpu_percent': 49.8, 'memory_percent': 57.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6774742942, 'bytes_recv': 26393379839, 'packets_sent': 37954941, 'packets_recv': 1689825, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:39:57,644 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:44:57,672 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:44:57,685 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:35:06.980897', 'cpu_percent': 42.1, 'memory_percent': 56.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6771927951, 'bytes_recv': 26390277043, 'packets_sent': 37943378, 'packets_recv': 1672753, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:44:57,686 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:44:57,687 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:38:10.027215', 'cpu_percent': 49.8, 'memory_percent': 57.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6774742942, 'bytes_recv': 26393379839, 'packets_sent': 37954941, 'packets_recv': 1689825, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:44:57,687 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:44:57,688 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:44:16.100405', 'cpu_percent': 42.2, 'memory_percent': 55.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6779927454, 'bytes_recv': 26400302696, 'packets_sent': 37976224, 'packets_recv': 1722355, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:44:57,688 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:49:57,713 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:49:57,720 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:44:16.100405', 'cpu_percent': 42.2, 'memory_percent': 55.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6779927454, 'bytes_recv': 26400302696, 'packets_sent': 37976224, 'packets_recv': 1722355, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:49:57,721 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:49:57,721 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:45:17.118649', 'cpu_percent': 47.6, 'memory_percent': 56.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6780758045, 'bytes_recv': 26401509627, 'packets_sent': 37980281, 'packets_recv': 1728957, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:49:57,722 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:54:57,749 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:54:57,757 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:45:17.118649', 'cpu_percent': 47.6, 'memory_percent': 56.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6780758045, 'bytes_recv': 26401509627, 'packets_sent': 37980281, 'packets_recv': 1728957, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:54:57,812 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 13:54:58,423 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 13:54:58,425 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 13:54:58,426 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 13:54:58,426 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:54:26.236505', 'cpu_percent': 55.8, 'memory_percent': 56.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6789223993, 'bytes_recv': 26411739596, 'packets_sent': 38017032, 'packets_recv': 1788433, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:54:58,427 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 13:59:58,451 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 13:59:58,460 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T13:54:26.236505', 'cpu_percent': 55.8, 'memory_percent': 56.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6789223993, 'bytes_recv': 26411739596, 'packets_sent': 38017032, 'packets_recv': 1788433, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 13:59:58,460 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:04:58,485 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:09:58,519 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:09:58,528 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:05:37.382521', 'cpu_percent': 40.2, 'memory_percent': 60.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6799804107, 'bytes_recv': 26429259829, 'packets_sent': 38064575, 'packets_recv': 1861581, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:09:58,573 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 14:09:59,225 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 14:09:59,227 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 14:09:59,228 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 14:09:59,228 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:08:40.441568', 'cpu_percent': 40.9, 'memory_percent': 58.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6802343497, 'bytes_recv': 26432921587, 'packets_sent': 38076975, 'packets_recv': 1882494, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:09:59,229 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:09:59,229 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:09:41.456389', 'cpu_percent': 62.6, 'memory_percent': 58.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6803211096, 'bytes_recv': 26434214148, 'packets_sent': 38081370, 'packets_recv': 1889954, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:09:59,230 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:14:59,260 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:14:59,269 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:05:37.382521', 'cpu_percent': 40.2, 'memory_percent': 60.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6799804107, 'bytes_recv': 26429259829, 'packets_sent': 38064575, 'packets_recv': 1861581, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:14:59,270 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:14:59,270 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:08:40.441568', 'cpu_percent': 40.9, 'memory_percent': 58.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6802343497, 'bytes_recv': 26432921587, 'packets_sent': 38076975, 'packets_recv': 1882494, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:14:59,271 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:14:59,271 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:09:41.456389', 'cpu_percent': 62.6, 'memory_percent': 58.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6803211096, 'bytes_recv': 26434214148, 'packets_sent': 38081370, 'packets_recv': 1889954, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:14:59,272 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:19:59,298 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:24:59,337 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:24:59,347 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:22:54.628214', 'cpu_percent': 41.2, 'memory_percent': 57.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6815353566, 'bytes_recv': 26449208291, 'packets_sent': 38135765, 'packets_recv': 1975331, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:24:59,393 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 14:25:00,032 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 14:25:00,034 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 14:25:00,034 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 14:25:56,871 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 14:25:56,889 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 14:25:57,311 - predictive_analytics - INFO - Forecast plot saved to forecast.png
+2025-03-11 14:30:00,068 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:30:00,080 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:22:54.628214', 'cpu_percent': 41.2, 'memory_percent': 57.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6815353566, 'bytes_recv': 26449208291, 'packets_sent': 38135765, 'packets_recv': 1975331, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:30:00,080 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:30:00,081 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:26:58.682544', 'cpu_percent': 42.8, 'memory_percent': 58.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6818890708, 'bytes_recv': 26453428009, 'packets_sent': 38151560, 'packets_recv': 1999432, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:30:00,081 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:35:00,105 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:35:00,113 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:26:58.682544', 'cpu_percent': 42.8, 'memory_percent': 58.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6818890708, 'bytes_recv': 26453428009, 'packets_sent': 38151560, 'packets_recv': 1999432, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:35:00,114 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:35:00,115 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:31:02.750453', 'cpu_percent': 56.3, 'memory_percent': 59.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6822392277, 'bytes_recv': 26457691511, 'packets_sent': 38167683, 'packets_recv': 2023215, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:35:00,115 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:35:00,116 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:32:03.770489', 'cpu_percent': 80.5, 'memory_percent': 60.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6823485819, 'bytes_recv': 26459742364, 'packets_sent': 38173054, 'packets_recv': 2030896, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:35:00,117 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:35:00,117 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:34:05.798043', 'cpu_percent': 15.2, 'memory_percent': 63.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6825915982, 'bytes_recv': 26462302954, 'packets_sent': 38182217, 'packets_recv': 2044626, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:35:00,118 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:40:00,157 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:40:00,167 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:31:02.750453', 'cpu_percent': 56.3, 'memory_percent': 59.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6822392277, 'bytes_recv': 26457691511, 'packets_sent': 38167683, 'packets_recv': 2023215, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:40:00,209 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 14:40:00,843 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 14:40:00,845 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 14:40:00,845 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 14:40:00,846 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:32:03.770489', 'cpu_percent': 80.5, 'memory_percent': 60.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6823485819, 'bytes_recv': 26459742364, 'packets_sent': 38173054, 'packets_recv': 2030896, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:40:00,846 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:40:00,847 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:34:05.798043', 'cpu_percent': 15.2, 'memory_percent': 63.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6825915982, 'bytes_recv': 26462302954, 'packets_sent': 38182217, 'packets_recv': 2044626, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:40:00,847 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:40:00,848 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:37:08.842795', 'cpu_percent': 33.3, 'memory_percent': 62.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6831346193, 'bytes_recv': 26468057670, 'packets_sent': 38200252, 'packets_recv': 2072838, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:40:00,848 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:40:00,849 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:39:10.869053', 'cpu_percent': 13.8, 'memory_percent': 63.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6835014716, 'bytes_recv': 26471855657, 'packets_sent': 38211948, 'packets_recv': 2090969, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:40:00,849 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:45:00,877 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:45:00,890 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:37:08.842795', 'cpu_percent': 33.3, 'memory_percent': 62.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6831346193, 'bytes_recv': 26468057670, 'packets_sent': 38200252, 'packets_recv': 2072838, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:45:00,892 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:45:00,893 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:39:10.869053', 'cpu_percent': 13.8, 'memory_percent': 63.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6835014716, 'bytes_recv': 26471855657, 'packets_sent': 38211948, 'packets_recv': 2090969, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:45:00,894 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:45:00,895 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:41:12.902989', 'cpu_percent': 56.8, 'memory_percent': 63.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6838210425, 'bytes_recv': 26474703874, 'packets_sent': 38222068, 'packets_recv': 2105350, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:45:00,896 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:45:00,897 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:42:13.933833', 'cpu_percent': 62.5, 'memory_percent': 63.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6839572259, 'bytes_recv': 26475849991, 'packets_sent': 38226514, 'packets_recv': 2111913, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:45:00,897 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:45:00,898 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:43:14.991082', 'cpu_percent': 11.5, 'memory_percent': 66.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6846294754, 'bytes_recv': 26482678357, 'packets_sent': 38238724, 'packets_recv': 2127429, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:45:00,898 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:45:00,899 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:44:16.002938', 'cpu_percent': 33.7, 'memory_percent': 66.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6849070481, 'bytes_recv': 26484762053, 'packets_sent': 38245790, 'packets_recv': 2136845, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:45:00,900 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,934 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:50:00,943 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:41:12.902989', 'cpu_percent': 56.8, 'memory_percent': 63.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6838210425, 'bytes_recv': 26474703874, 'packets_sent': 38222068, 'packets_recv': 2105350, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,944 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,944 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:42:13.933833', 'cpu_percent': 62.5, 'memory_percent': 63.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6839572259, 'bytes_recv': 26475849991, 'packets_sent': 38226514, 'packets_recv': 2111913, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,945 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,946 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:43:14.991082', 'cpu_percent': 11.5, 'memory_percent': 66.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6846294754, 'bytes_recv': 26482678357, 'packets_sent': 38238724, 'packets_recv': 2127429, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,947 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,948 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:44:16.002938', 'cpu_percent': 33.7, 'memory_percent': 66.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6849070481, 'bytes_recv': 26484762053, 'packets_sent': 38245790, 'packets_recv': 2136845, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,949 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,949 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:45:17.017815', 'cpu_percent': 23.4, 'memory_percent': 65.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6851305571, 'bytes_recv': 26486885011, 'packets_sent': 38252683, 'packets_recv': 2146708, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,950 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,951 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:46:18.031188', 'cpu_percent': 5.7, 'memory_percent': 64.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6852505978, 'bytes_recv': 26488114492, 'packets_sent': 38257441, 'packets_recv': 2153165, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,952 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,952 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:47:19.043627', 'cpu_percent': 8.0, 'memory_percent': 65.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6853564263, 'bytes_recv': 26489393094, 'packets_sent': 38262091, 'packets_recv': 2159695, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,953 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,954 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:48:20.054968', 'cpu_percent': 18.4, 'memory_percent': 64.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6854625685, 'bytes_recv': 26490528230, 'packets_sent': 38266338, 'packets_recv': 2166121, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,955 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:50:00,955 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:49:21.066901', 'cpu_percent': 8.0, 'memory_percent': 65.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6857180650, 'bytes_recv': 26492457629, 'packets_sent': 38273224, 'packets_recv': 2175369, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:50:00,956 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:00,984 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 14:55:00,993 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:45:17.017815', 'cpu_percent': 23.4, 'memory_percent': 65.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6851305571, 'bytes_recv': 26486885011, 'packets_sent': 38252683, 'packets_recv': 2146708, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:01,038 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 14:55:02,493 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 14:55:02,495 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 14:55:02,495 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 14:55:02,496 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:46:18.031188', 'cpu_percent': 5.7, 'memory_percent': 64.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6852505978, 'bytes_recv': 26488114492, 'packets_sent': 38257441, 'packets_recv': 2153165, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,497 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,497 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:47:19.043627', 'cpu_percent': 8.0, 'memory_percent': 65.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6853564263, 'bytes_recv': 26489393094, 'packets_sent': 38262091, 'packets_recv': 2159695, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,498 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,499 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:48:20.054968', 'cpu_percent': 18.4, 'memory_percent': 64.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6854625685, 'bytes_recv': 26490528230, 'packets_sent': 38266338, 'packets_recv': 2166121, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,499 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,500 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:49:21.066901', 'cpu_percent': 8.0, 'memory_percent': 65.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6857180650, 'bytes_recv': 26492457629, 'packets_sent': 38273224, 'packets_recv': 2175369, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,500 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,501 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:50:22.082620', 'cpu_percent': 28.3, 'memory_percent': 65.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6858291060, 'bytes_recv': 26493674562, 'packets_sent': 38277975, 'packets_recv': 2182318, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,501 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,501 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:51:23.096220', 'cpu_percent': 23.3, 'memory_percent': 64.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6859409140, 'bytes_recv': 26494923160, 'packets_sent': 38282826, 'packets_recv': 2189063, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,502 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,502 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:52:24.109805', 'cpu_percent': 45.3, 'memory_percent': 64.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6861286033, 'bytes_recv': 26496054299, 'packets_sent': 38287539, 'packets_recv': 2195854, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,503 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,504 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:53:25.126715', 'cpu_percent': 42.0, 'memory_percent': 65.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6863434246, 'bytes_recv': 26497782459, 'packets_sent': 38293332, 'packets_recv': 2204452, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,504 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:55:02,505 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T14:54:26.140447', 'cpu_percent': 38.5, 'memory_percent': 65.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 6865196620, 'bytes_recv': 26499316841, 'packets_sent': 38298634, 'packets_recv': 2212603, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 14:55:02,506 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 14:56:41,506 - main - INFO - Starting AI Operations System
+2025-03-11 14:56:41,510 - alert_manager - INFO - Configuration loaded from config/alerts.json
+2025-03-11 14:56:41,510 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-11 14:56:41,511 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-11 14:56:41,511 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-11 14:56:41,511 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-11 14:56:41,511 - ai_ops_controller - INFO - All threads started
+2025-03-11 14:56:41,512 - main - INFO - Press Ctrl+C to stop
+2025-03-11 14:57:41,513 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 14:57:41,534 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 15:01:41,541 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 15:06:41,564 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 16:48:37,250 - main - INFO - Starting AI Operations System
+2025-03-11 16:48:37,253 - alert_manager - INFO - Configuration loaded from config/alerts.json
+2025-03-11 16:48:37,254 - ai_ops_controller - INFO - Starting AI Operations System
+2025-03-11 16:48:37,254 - ai_ops_controller - INFO - Starting data collection thread
+2025-03-11 16:48:37,254 - ai_ops_controller - INFO - Starting anomaly detection thread
+2025-03-11 16:48:37,255 - ai_ops_controller - INFO - Starting prediction thread
+2025-03-11 16:48:37,255 - ai_ops_controller - INFO - All threads started
+2025-03-11 16:48:37,255 - main - INFO - Press Ctrl+C to stop
+2025-03-11 16:49:37,256 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 16:49:37,278 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 16:53:37,292 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 16:58:37,316 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:03:37,352 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:03:37,364 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:53:42.323003', 'cpu_percent': 11.7, 'memory_percent': 65.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7008721356, 'bytes_recv': 26658770498, 'packets_sent': 38825010, 'packets_recv': 2930664, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:37,415 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 17:03:38,112 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 17:03:38,113 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 17:03:38,113 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 17:03:38,114 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:54:43.334225', 'cpu_percent': 42.3, 'memory_percent': 66.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7010909038, 'bytes_recv': 26660167410, 'packets_sent': 38829582, 'packets_recv': 2937264, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,115 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,115 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:55:44.349188', 'cpu_percent': 19.9, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7012565158, 'bytes_recv': 26661398694, 'packets_sent': 38833790, 'packets_recv': 2943370, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,116 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,116 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:56:45.365464', 'cpu_percent': 25.0, 'memory_percent': 66.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7013579759, 'bytes_recv': 26662332321, 'packets_sent': 38837202, 'packets_recv': 2948564, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,117 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,118 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:57:46.379653', 'cpu_percent': 11.4, 'memory_percent': 65.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7015001679, 'bytes_recv': 26663324361, 'packets_sent': 38840646, 'packets_recv': 2954523, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,119 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,119 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:58:47.400838', 'cpu_percent': 29.7, 'memory_percent': 66.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7016178737, 'bytes_recv': 26664168121, 'packets_sent': 38844111, 'packets_recv': 2959996, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,120 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,120 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:59:48.422385', 'cpu_percent': 35.9, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7017413336, 'bytes_recv': 26665148093, 'packets_sent': 38847923, 'packets_recv': 2965736, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,121 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,121 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:00:49.439653', 'cpu_percent': 30.1, 'memory_percent': 66.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7018729657, 'bytes_recv': 26666564077, 'packets_sent': 38852214, 'packets_recv': 2972014, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,122 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,122 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:01:50.458736', 'cpu_percent': 45.6, 'memory_percent': 67.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7020834450, 'bytes_recv': 26668051603, 'packets_sent': 38857304, 'packets_recv': 2979536, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,123 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:03:38,124 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:02:51.484784', 'cpu_percent': 16.6, 'memory_percent': 66.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7022333110, 'bytes_recv': 26672254944, 'packets_sent': 38863586, 'packets_recv': 2989947, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:03:38,124 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,149 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:08:38,157 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:58:47.400838', 'cpu_percent': 29.7, 'memory_percent': 66.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7016178737, 'bytes_recv': 26664168121, 'packets_sent': 38844111, 'packets_recv': 2959996, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,157 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,158 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T16:59:48.422385', 'cpu_percent': 35.9, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7017413336, 'bytes_recv': 26665148093, 'packets_sent': 38847923, 'packets_recv': 2965736, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,158 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,159 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:00:49.439653', 'cpu_percent': 30.1, 'memory_percent': 66.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7018729657, 'bytes_recv': 26666564077, 'packets_sent': 38852214, 'packets_recv': 2972014, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,160 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,160 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:01:50.458736', 'cpu_percent': 45.6, 'memory_percent': 67.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7020834450, 'bytes_recv': 26668051603, 'packets_sent': 38857304, 'packets_recv': 2979536, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,161 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,162 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:02:51.484784', 'cpu_percent': 16.6, 'memory_percent': 66.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7022333110, 'bytes_recv': 26672254944, 'packets_sent': 38863586, 'packets_recv': 2989947, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,163 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,163 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:03:52.496968', 'cpu_percent': 39.8, 'memory_percent': 68.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7024037934, 'bytes_recv': 26682801699, 'packets_sent': 38873140, 'packets_recv': 3004327, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,164 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,165 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:04:53.519145', 'cpu_percent': 55.3, 'memory_percent': 69.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7025523553, 'bytes_recv': 26684686453, 'packets_sent': 38878019, 'packets_recv': 3011253, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,165 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,166 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:05:54.543858', 'cpu_percent': 58.5, 'memory_percent': 70.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7027314753, 'bytes_recv': 26694972184, 'packets_sent': 38886859, 'packets_recv': 3024878, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,167 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,168 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:06:55.558509', 'cpu_percent': 53.7, 'memory_percent': 68.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7028608037, 'bytes_recv': 26712257817, 'packets_sent': 38896124, 'packets_recv': 3040310, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,169 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:08:38,170 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:07:56.570692', 'cpu_percent': 59.9, 'memory_percent': 69.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7030324993, 'bytes_recv': 26717466300, 'packets_sent': 38901604, 'packets_recv': 3048680, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:08:38,170 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,198 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:13:38,209 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:03:52.496968', 'cpu_percent': 39.8, 'memory_percent': 68.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7024037934, 'bytes_recv': 26682801699, 'packets_sent': 38873140, 'packets_recv': 3004327, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,210 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,210 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:04:53.519145', 'cpu_percent': 55.3, 'memory_percent': 69.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7025523553, 'bytes_recv': 26684686453, 'packets_sent': 38878019, 'packets_recv': 3011253, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,211 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,212 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:05:54.543858', 'cpu_percent': 58.5, 'memory_percent': 70.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7027314753, 'bytes_recv': 26694972184, 'packets_sent': 38886859, 'packets_recv': 3024878, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,212 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,213 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:06:55.558509', 'cpu_percent': 53.7, 'memory_percent': 68.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7028608037, 'bytes_recv': 26712257817, 'packets_sent': 38896124, 'packets_recv': 3040310, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,213 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,214 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:07:56.570692', 'cpu_percent': 59.9, 'memory_percent': 69.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7030324993, 'bytes_recv': 26717466300, 'packets_sent': 38901604, 'packets_recv': 3048680, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,214 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,215 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:08:57.586470', 'cpu_percent': 32.9, 'memory_percent': 71.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7031754047, 'bytes_recv': 26720006323, 'packets_sent': 38906867, 'packets_recv': 3056017, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,215 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,216 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:09:58.609348', 'cpu_percent': 30.7, 'memory_percent': 71.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7032671201, 'bytes_recv': 26720898109, 'packets_sent': 38910569, 'packets_recv': 3061078, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,217 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,218 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:10:59.624417', 'cpu_percent': 41.6, 'memory_percent': 70.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7033827813, 'bytes_recv': 26721872273, 'packets_sent': 38914365, 'packets_recv': 3066095, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,219 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,220 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:12:00.643464', 'cpu_percent': 17.5, 'memory_percent': 71.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7035009553, 'bytes_recv': 26722894413, 'packets_sent': 38918111, 'packets_recv': 3071756, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,220 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:13:38,221 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:13:01.655123', 'cpu_percent': 55.5, 'memory_percent': 70.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7036119328, 'bytes_recv': 26724055732, 'packets_sent': 38922479, 'packets_recv': 3078492, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:13:38,221 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,252 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:18:38,262 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:08:57.586470', 'cpu_percent': 32.9, 'memory_percent': 71.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7031754047, 'bytes_recv': 26720006323, 'packets_sent': 38906867, 'packets_recv': 3056017, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,306 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 17:18:38,984 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 17:18:38,986 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 17:18:38,987 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 17:18:38,987 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:09:58.609348', 'cpu_percent': 30.7, 'memory_percent': 71.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7032671201, 'bytes_recv': 26720898109, 'packets_sent': 38910569, 'packets_recv': 3061078, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,988 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,988 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:10:59.624417', 'cpu_percent': 41.6, 'memory_percent': 70.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7033827813, 'bytes_recv': 26721872273, 'packets_sent': 38914365, 'packets_recv': 3066095, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,989 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,989 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:12:00.643464', 'cpu_percent': 17.5, 'memory_percent': 71.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7035009553, 'bytes_recv': 26722894413, 'packets_sent': 38918111, 'packets_recv': 3071756, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,990 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,991 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:13:01.655123', 'cpu_percent': 55.5, 'memory_percent': 70.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7036119328, 'bytes_recv': 26724055732, 'packets_sent': 38922479, 'packets_recv': 3078492, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,992 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,992 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:14:02.674017', 'cpu_percent': 49.4, 'memory_percent': 70.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7037287908, 'bytes_recv': 26725160761, 'packets_sent': 38926696, 'packets_recv': 3084529, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,993 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,993 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:15:03.691187', 'cpu_percent': 26.8, 'memory_percent': 68.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7038966014, 'bytes_recv': 26726541138, 'packets_sent': 38931158, 'packets_recv': 3090577, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,994 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,995 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:16:04.710924', 'cpu_percent': 37.0, 'memory_percent': 67.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7040605319, 'bytes_recv': 26727738303, 'packets_sent': 38935237, 'packets_recv': 3096444, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,995 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,996 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:17:05.728596', 'cpu_percent': 67.7, 'memory_percent': 68.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7041665840, 'bytes_recv': 26728564441, 'packets_sent': 38938736, 'packets_recv': 3101647, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,997 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:18:38,997 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:18:06.752804', 'cpu_percent': 60.2, 'memory_percent': 69.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7043479759, 'bytes_recv': 26729719525, 'packets_sent': 38942712, 'packets_recv': 3107744, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:18:38,998 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,029 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:23:39,041 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:14:02.674017', 'cpu_percent': 49.4, 'memory_percent': 70.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7037287908, 'bytes_recv': 26725160761, 'packets_sent': 38926696, 'packets_recv': 3084529, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,042 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,043 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:15:03.691187', 'cpu_percent': 26.8, 'memory_percent': 68.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7038966014, 'bytes_recv': 26726541138, 'packets_sent': 38931158, 'packets_recv': 3090577, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,044 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,045 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:16:04.710924', 'cpu_percent': 37.0, 'memory_percent': 67.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7040605319, 'bytes_recv': 26727738303, 'packets_sent': 38935237, 'packets_recv': 3096444, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,045 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,046 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:17:05.728596', 'cpu_percent': 67.7, 'memory_percent': 68.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7041665840, 'bytes_recv': 26728564441, 'packets_sent': 38938736, 'packets_recv': 3101647, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,047 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,048 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:18:06.752804', 'cpu_percent': 60.2, 'memory_percent': 69.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7043479759, 'bytes_recv': 26729719525, 'packets_sent': 38942712, 'packets_recv': 3107744, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,049 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,050 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:19:07.791289', 'cpu_percent': 38.5, 'memory_percent': 67.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7045246603, 'bytes_recv': 26731031270, 'packets_sent': 38946726, 'packets_recv': 3113522, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,050 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,051 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:20:08.805865', 'cpu_percent': 10.2, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7046573887, 'bytes_recv': 26731993658, 'packets_sent': 38950442, 'packets_recv': 3118701, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,052 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,052 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:21:09.817447', 'cpu_percent': 5.3, 'memory_percent': 66.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7047470215, 'bytes_recv': 26734123661, 'packets_sent': 38954154, 'packets_recv': 3124431, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,053 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,054 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:22:10.839641', 'cpu_percent': 34.4, 'memory_percent': 66.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7048777681, 'bytes_recv': 26734964007, 'packets_sent': 38957523, 'packets_recv': 3129307, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,055 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:23:39,055 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:23:11.861442', 'cpu_percent': 28.1, 'memory_percent': 67.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7049824141, 'bytes_recv': 26741073514, 'packets_sent': 38962896, 'packets_recv': 3137487, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:23:39,056 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,094 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:28:39,103 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:19:07.791289', 'cpu_percent': 38.5, 'memory_percent': 67.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7045246603, 'bytes_recv': 26731031270, 'packets_sent': 38946726, 'packets_recv': 3113522, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,104 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,105 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:20:08.805865', 'cpu_percent': 10.2, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7046573887, 'bytes_recv': 26731993658, 'packets_sent': 38950442, 'packets_recv': 3118701, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,107 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,107 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:21:09.817447', 'cpu_percent': 5.3, 'memory_percent': 66.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7047470215, 'bytes_recv': 26734123661, 'packets_sent': 38954154, 'packets_recv': 3124431, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,108 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,109 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:22:10.839641', 'cpu_percent': 34.4, 'memory_percent': 66.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7048777681, 'bytes_recv': 26734964007, 'packets_sent': 38957523, 'packets_recv': 3129307, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,109 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,110 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:23:11.861442', 'cpu_percent': 28.1, 'memory_percent': 67.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7049824141, 'bytes_recv': 26741073514, 'packets_sent': 38962896, 'packets_recv': 3137487, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,111 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,112 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:24:12.879497', 'cpu_percent': 7.4, 'memory_percent': 65.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7050947854, 'bytes_recv': 26742267634, 'packets_sent': 38966478, 'packets_recv': 3142450, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,113 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,114 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:25:13.890882', 'cpu_percent': 16.7, 'memory_percent': 66.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7051779022, 'bytes_recv': 26744192315, 'packets_sent': 38970599, 'packets_recv': 3148871, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,115 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,116 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:26:14.905908', 'cpu_percent': 24.0, 'memory_percent': 65.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7052644690, 'bytes_recv': 26745311179, 'packets_sent': 38974078, 'packets_recv': 3154282, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,117 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,117 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:27:15.920766', 'cpu_percent': 30.3, 'memory_percent': 65.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7053773634, 'bytes_recv': 26746953022, 'packets_sent': 38977450, 'packets_recv': 3159597, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,118 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:28:39,119 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:28:16.933726', 'cpu_percent': 4.3, 'memory_percent': 65.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7054516141, 'bytes_recv': 26747710345, 'packets_sent': 38980044, 'packets_recv': 3163821, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:28:39,119 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,177 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:33:39,204 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:24:12.879497', 'cpu_percent': 7.4, 'memory_percent': 65.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7050947854, 'bytes_recv': 26742267634, 'packets_sent': 38966478, 'packets_recv': 3142450, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,252 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 17:33:39,915 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 17:33:39,918 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 17:33:39,918 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 17:33:39,919 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:25:13.890882', 'cpu_percent': 16.7, 'memory_percent': 66.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7051779022, 'bytes_recv': 26744192315, 'packets_sent': 38970599, 'packets_recv': 3148871, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,920 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,921 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:26:14.905908', 'cpu_percent': 24.0, 'memory_percent': 65.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7052644690, 'bytes_recv': 26745311179, 'packets_sent': 38974078, 'packets_recv': 3154282, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,922 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,922 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:27:15.920766', 'cpu_percent': 30.3, 'memory_percent': 65.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7053773634, 'bytes_recv': 26746953022, 'packets_sent': 38977450, 'packets_recv': 3159597, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,923 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,923 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:28:16.933726', 'cpu_percent': 4.3, 'memory_percent': 65.5, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7054516141, 'bytes_recv': 26747710345, 'packets_sent': 38980044, 'packets_recv': 3163821, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,924 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,925 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:29:17.945181', 'cpu_percent': 28.9, 'memory_percent': 65.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7055483419, 'bytes_recv': 26748530770, 'packets_sent': 38983002, 'packets_recv': 3168374, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,925 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,927 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:30:18.957263', 'cpu_percent': 7.4, 'memory_percent': 65.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7056241901, 'bytes_recv': 26749329624, 'packets_sent': 38985710, 'packets_recv': 3172517, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,928 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,929 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:31:19.969081', 'cpu_percent': 24.2, 'memory_percent': 65.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7057101939, 'bytes_recv': 26750152631, 'packets_sent': 38988382, 'packets_recv': 3176965, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,930 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,931 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:32:20.983460', 'cpu_percent': 33.1, 'memory_percent': 65.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7057847535, 'bytes_recv': 26750920180, 'packets_sent': 38991058, 'packets_recv': 3181429, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,932 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:33:39,933 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:33:22.001644', 'cpu_percent': 26.4, 'memory_percent': 66.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7058526580, 'bytes_recv': 26752077770, 'packets_sent': 38993620, 'packets_recv': 3185781, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:33:39,934 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,957 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:38:39,965 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:29:17.945181', 'cpu_percent': 28.9, 'memory_percent': 65.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7055483419, 'bytes_recv': 26748530770, 'packets_sent': 38983002, 'packets_recv': 3168374, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,965 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,966 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:30:18.957263', 'cpu_percent': 7.4, 'memory_percent': 65.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7056241901, 'bytes_recv': 26749329624, 'packets_sent': 38985710, 'packets_recv': 3172517, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,967 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,967 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:31:19.969081', 'cpu_percent': 24.2, 'memory_percent': 65.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7057101939, 'bytes_recv': 26750152631, 'packets_sent': 38988382, 'packets_recv': 3176965, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,968 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,968 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:32:20.983460', 'cpu_percent': 33.1, 'memory_percent': 65.8, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7057847535, 'bytes_recv': 26750920180, 'packets_sent': 38991058, 'packets_recv': 3181429, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,968 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,969 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:33:22.001644', 'cpu_percent': 26.4, 'memory_percent': 66.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7058526580, 'bytes_recv': 26752077770, 'packets_sent': 38993620, 'packets_recv': 3185781, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,969 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,969 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:34:23.014149', 'cpu_percent': 5.7, 'memory_percent': 68.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7059977160, 'bytes_recv': 26756867165, 'packets_sent': 38998702, 'packets_recv': 3193828, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,970 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,970 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:35:24.025941', 'cpu_percent': 30.8, 'memory_percent': 67.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7060802881, 'bytes_recv': 26760383224, 'packets_sent': 39002625, 'packets_recv': 3199957, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,970 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,971 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:37:26.056388', 'cpu_percent': 49.4, 'memory_percent': 67.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7062825825, 'bytes_recv': 26762155810, 'packets_sent': 39008343, 'packets_recv': 3209581, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,972 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:38:39,972 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:38:27.081461', 'cpu_percent': 39.7, 'memory_percent': 68.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7064408291, 'bytes_recv': 26772812552, 'packets_sent': 39015254, 'packets_recv': 3221859, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:38:39,973 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,000 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:43:40,007 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:34:23.014149', 'cpu_percent': 5.7, 'memory_percent': 68.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7059977160, 'bytes_recv': 26756867165, 'packets_sent': 38998702, 'packets_recv': 3193828, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,008 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,009 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:35:24.025941', 'cpu_percent': 30.8, 'memory_percent': 67.6, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7060802881, 'bytes_recv': 26760383224, 'packets_sent': 39002625, 'packets_recv': 3199957, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,009 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,010 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:37:26.056388', 'cpu_percent': 49.4, 'memory_percent': 67.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7062825825, 'bytes_recv': 26762155810, 'packets_sent': 39008343, 'packets_recv': 3209581, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,010 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,011 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:38:27.081461', 'cpu_percent': 39.7, 'memory_percent': 68.0, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7064408291, 'bytes_recv': 26772812552, 'packets_sent': 39015254, 'packets_recv': 3221859, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,011 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,012 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:39:28.094271', 'cpu_percent': 4.3, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7065776294, 'bytes_recv': 26794104610, 'packets_sent': 39026165, 'packets_recv': 3240650, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,012 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,012 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:40:29.106779', 'cpu_percent': 13.7, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7066888911, 'bytes_recv': 26805069836, 'packets_sent': 39033158, 'packets_recv': 3252046, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,013 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,013 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:41:30.118997', 'cpu_percent': 38.4, 'memory_percent': 67.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7068047685, 'bytes_recv': 26805887700, 'packets_sent': 39036336, 'packets_recv': 3257070, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,014 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,014 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:42:31.132964', 'cpu_percent': 9.6, 'memory_percent': 67.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7069572524, 'bytes_recv': 26806918282, 'packets_sent': 39040083, 'packets_recv': 3262476, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,015 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:43:40,015 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:43:32.146800', 'cpu_percent': 29.7, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7070635962, 'bytes_recv': 26807705615, 'packets_sent': 39043250, 'packets_recv': 3267067, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:43:40,016 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,047 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:48:40,057 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:39:28.094271', 'cpu_percent': 4.3, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7065776294, 'bytes_recv': 26794104610, 'packets_sent': 39026165, 'packets_recv': 3240650, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,102 - alert_manager - ERROR - Error sending email alert: [Errno 11001] getaddrinfo failed
+2025-03-11 17:48:40,695 - alert_manager - ERROR - Webhook alert failed, status code: 404, response: no_team
+2025-03-11 17:48:40,697 - alert_manager - INFO - SMS alerts are disabled
+2025-03-11 17:48:40,697 - alert_manager - INFO - Alert triggered: [严重] 系统异常行为检测 (Email: False, Webhook: False, SMS: False)
+2025-03-11 17:48:40,698 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:40:29.106779', 'cpu_percent': 13.7, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7066888911, 'bytes_recv': 26805069836, 'packets_sent': 39033158, 'packets_recv': 3252046, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,699 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,699 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:41:30.118997', 'cpu_percent': 38.4, 'memory_percent': 67.4, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7068047685, 'bytes_recv': 26805887700, 'packets_sent': 39036336, 'packets_recv': 3257070, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,700 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,700 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:42:31.132964', 'cpu_percent': 9.6, 'memory_percent': 67.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7069572524, 'bytes_recv': 26806918282, 'packets_sent': 39040083, 'packets_recv': 3262476, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,700 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,701 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:43:32.146800', 'cpu_percent': 29.7, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7070635962, 'bytes_recv': 26807705615, 'packets_sent': 39043250, 'packets_recv': 3267067, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,701 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,701 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:44:33.157863', 'cpu_percent': 32.7, 'memory_percent': 67.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7071656698, 'bytes_recv': 26810548432, 'packets_sent': 39047635, 'packets_recv': 3273168, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,702 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,702 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:45:34.174522', 'cpu_percent': 45.8, 'memory_percent': 68.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7073308873, 'bytes_recv': 26816550818, 'packets_sent': 39054526, 'packets_recv': 3282799, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,702 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,703 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:46:35.189595', 'cpu_percent': 40.9, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7074334810, 'bytes_recv': 26817560517, 'packets_sent': 39058063, 'packets_recv': 3287836, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,703 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,703 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:47:36.210328', 'cpu_percent': 17.7, 'memory_percent': 68.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7075340145, 'bytes_recv': 26818627187, 'packets_sent': 39061716, 'packets_recv': 3293272, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,704 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:48:40,704 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:48:37.234008', 'cpu_percent': 22.6, 'memory_percent': 67.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7076853737, 'bytes_recv': 26820156451, 'packets_sent': 39066103, 'packets_recv': 3300290, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:48:40,704 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:49:37,280 - predictive_analytics - INFO - Scaler loaded from models\scaler.pkl
+2025-03-11 17:49:37,304 - predictive_analytics - INFO - Model loaded from models/prediction_model.h5
+2025-03-11 17:49:37,634 - predictive_analytics - INFO - Forecast plot saved to forecast.png
+2025-03-11 17:53:40,728 - anomaly_detector - INFO - Model loaded from models/anomaly_model.pkl
+2025-03-11 17:53:40,736 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:43:32.146800', 'cpu_percent': 29.7, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7070635962, 'bytes_recv': 26807705615, 'packets_sent': 39043250, 'packets_recv': 3267067, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,737 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,737 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:44:33.157863', 'cpu_percent': 32.7, 'memory_percent': 67.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7071656698, 'bytes_recv': 26810548432, 'packets_sent': 39047635, 'packets_recv': 3273168, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,738 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,738 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:45:34.174522', 'cpu_percent': 45.8, 'memory_percent': 68.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7073308873, 'bytes_recv': 26816550818, 'packets_sent': 39054526, 'packets_recv': 3282799, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,738 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,739 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:46:35.189595', 'cpu_percent': 40.9, 'memory_percent': 66.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7074334810, 'bytes_recv': 26817560517, 'packets_sent': 39058063, 'packets_recv': 3287836, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,740 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,740 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:47:36.210328', 'cpu_percent': 17.7, 'memory_percent': 68.2, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7075340145, 'bytes_recv': 26818627187, 'packets_sent': 39061716, 'packets_recv': 3293272, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,741 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,741 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:48:37.234008', 'cpu_percent': 22.6, 'memory_percent': 67.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7076853737, 'bytes_recv': 26820156451, 'packets_sent': 39066103, 'packets_recv': 3300290, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,742 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,742 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:49:38.252129', 'cpu_percent': 67.4, 'memory_percent': 68.7, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7077823825, 'bytes_recv': 26821595816, 'packets_sent': 39070703, 'packets_recv': 3307908, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,743 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,743 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:50:39.295033', 'cpu_percent': 7.6, 'memory_percent': 67.1, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7078974911, 'bytes_recv': 26822706070, 'packets_sent': 39074105, 'packets_recv': 3313003, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,744 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,744 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:51:40.306846', 'cpu_percent': 34.8, 'memory_percent': 67.9, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7079987461, 'bytes_recv': 26823575346, 'packets_sent': 39077189, 'packets_recv': 3317744, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,745 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)
+2025-03-11 17:53:40,746 - ai_ops_controller - WARNING - Anomaly detected: {'timestamp': '2025-03-11T17:52:41.322134', 'cpu_percent': 15.2, 'memory_percent': 67.3, 'disk_usage': 5.8, 'network_io': {'bytes_sent': 7081564174, 'bytes_recv': 26824672703, 'packets_sent': 39080785, 'packets_recv': 3323053, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}}
+2025-03-11 17:53:40,746 - alert_manager - INFO - Alert for anomaly_detected on system suppressed (cooldown period)

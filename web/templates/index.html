@@ -132,12 +132,29 @@
         
         // 初始化图表
         function initChart() {
-            const ctx = document.getElementById('resource-chart').getContext('2d');
-            resourceChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: [],
-                    datasets: [
+            if (typeof Chart === 'undefined') {
+                console.error('Chart.js库未加载');
+                return;
+            }
+            
+            const canvas = document.getElementById('resource-chart');
+            if (!canvas) {
+                console.error('找不到图表canvas元素');
+                return;
+            }
+            
+            const ctx = canvas.getContext('2d');
+            if (!ctx) {
+                console.error('无法获取canvas上下文');
+                return;
+            }
+            
+            try {
+                resourceChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: [],
+                        datasets: [
                         {
                             label: 'CPU使用率 (%)',
                             data: [],
@@ -171,6 +188,9 @@
                     }
                 }
             });
+            } catch (error) {
+                console.error('初始化图表失败:', error);
+            }
         }
         
         // 更新系统状态
@@ -191,10 +211,26 @@
         
         // 更新指标图表
         function updateMetrics() {
+            if (!resourceChart) {
+                console.error('图表未初始化');
+                return;
+            }
+
             fetch('/api/metrics?limit=30')
                 .then(response => response.json())
                 .then(data => {
-                    if (data.length === 0) return;
+                    if (!Array.isArray(data) || data.length === 0) {
+                        console.warn('没有可用的指标数据');
+                        return;
+                    }
+                    
+                    // 验证数据格式
+                    if (!data[0].hasOwnProperty('cpu_percent') || 
+                        !data[0].hasOwnProperty('memory_percent') || 
+                        !data[0].hasOwnProperty('disk_usage')) {
+                        console.error('数据格式不正确');
+                        return;
+                    }
                     
                     // 准备图表数据
                     const labels = data.map(item => {
@@ -213,7 +249,9 @@
                     resourceChart.data.datasets[2].data = diskData;
                     resourceChart.update();
                 })
-                .catch(error => console.error('获取指标失败:', error));
+                .catch(error => {
+                    console.error('获取或更新指标失败:', error);
+                });
         }
         
         // 更新告警列表
@@ -258,7 +296,7 @@
                     if (data.success) {
                         document.getElementById('forecast-time').textContent = new Date(data.last_update).toLocaleString();
                         document.getElementById('forecast-image').innerHTML = `
-                            <img src="/static/forecast.png?t=${new Date().getTime()}" class="img-fluid" alt="预测图表">
+                            <img src='/static/forecast.png?t=${new Date().getTime()}' class="img-fluid" alt="预测图表">
                         `;
                     } else {
                         document.getElementById('forecast-image').innerHTML = '<p>预测数据暂不可用</p>';
@@ -287,6 +325,11 @@
         // 停止系统
         document.getElementById('stop-btn').addEventListener('click', function() {
             if (confirm('确定要停止系统吗？')) {
+                const stopBtn = document.getElementById('stop-btn');
+                const startBtn = document.getElementById('start-btn');
+                stopBtn.disabled = true;
+                stopBtn.textContent = '停止中...';
+                
                 fetch('/api/stop', {
                     method: 'POST'
                 })
@@ -295,11 +338,21 @@
                     if (data.success) {
                         alert('系统已停止');
                         updateStatus();
+                        stopBtn.textContent = '停止系统';
+                        stopBtn.disabled = true;
+                        startBtn.disabled = false;
                     } else {
                         alert('停止失败: ' + data.message);
+                        stopBtn.disabled = false;
+                        stopBtn.textContent = '停止系统';
                     }
                 })
-                .catch(error => console.error('停止系统失败:', error));
+                .catch(error => {
+                    console.error('停止系统失败:', error);
+                    alert('停止系统失败，请检查网络连接');
+                    stopBtn.disabled = false;
+                    stopBtn.textContent = '停止系统';
+                });
             }
         });
         

@@ -345,18 +345,23 @@ class AIOperationsController:
         """停止AI运维系统"""
         if not self.running:
             self.logger.warning("System is not running")
-            return
+            return False
         
-        self.running = False
         self.logger.info("Stopping AI Operations System")
+        self.running = False
         
-        # 等待所有线程结束
-        for thread in self.threads:
-            thread.join(timeout=5)
+        # 等待所有线程结束，增加等待时间
+        for i, thread in enumerate(self.threads):
+            self.logger.info(f"Waiting for thread {i} to terminate...")
+            thread.join(timeout=10)  # 增加超时时间
+            if thread.is_alive():
+                self.logger.warning(f"Thread {i} did not terminate within timeout")
         
+        # 清空线程列表
         self.threads = []
         
         # 保存数据
         self._save_metrics_to_csv()
         
         self.logger.info("System stopped")
+        return True

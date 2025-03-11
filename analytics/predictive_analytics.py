@@ -53,11 +53,15 @@ class PredictiveAnalytics:
             self.model = RandomForestRegressor(n_estimators=100, random_state=42)
             self.model.fit(X, y)
             
-            # 保存模型
+            # 保存模型和scaler
             if self.model_path:
                 import joblib
+                model_dir = os.path.dirname(self.model_path)
+                scaler_path = os.path.join(model_dir, 'scaler.pkl')
                 joblib.dump(self.model, self.model_path)
+                joblib.dump(self.scaler, scaler_path)
                 self.logger.info(f"Model saved to {self.model_path}")
+                self.logger.info(f"Scaler saved to {scaler_path}")
             
             return True
         except Exception as e:
@@ -65,10 +69,20 @@ class PredictiveAnalytics:
             return False
     
     def load_model(self):
-        """加载已训练的模型"""
+        """加载已训练的模型和scaler"""
         if self.model_path and os.path.exists(self.model_path):
             try:
                 import joblib
+                model_dir = os.path.dirname(self.model_path)
+                scaler_path = os.path.join(model_dir, 'scaler.pkl')
+                
+                if os.path.exists(scaler_path):
+                    self.scaler = joblib.load(scaler_path)
+                    self.logger.info(f"Scaler loaded from {scaler_path}")
+                else:
+                    self.logger.error("Scaler file not found. Please train the model first.")
+                    return False
+                
                 self.model = joblib.load(self.model_path)
                 self.logger.info(f"Model loaded from {self.model_path}")
                 return True
@@ -150,6 +164,7 @@ class PredictiveAnalytics:
             
             forecast_path = 'forecast.png'
             plt.savefig(forecast_path)
+            plt.close()
             self.logger.info(f"Forecast plot saved to {forecast_path}")
             
             return forecast_path

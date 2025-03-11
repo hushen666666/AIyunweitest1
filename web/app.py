@@ -123,7 +123,7 @@ def start_system():
 @app.route('/api/stop', methods=['POST'])
 def stop_system():
     """停止系统"""
-    global controller
+    global controller, controller_thread
     
     if controller is None or not controller.running:
         return jsonify({
@@ -131,13 +131,44 @@ def stop_system():
             "message": "系统未在运行"
         })
     
-    controller.stop()
-    controller = None
-    
-    return jsonify({
-        "success": True,
-        "message": "系统已停止"
-    })
+    try:
+        # 停止控制器
+        stop_success = controller.stop()
+        
+        if not stop_success:
+            return jsonify({
+                "success": False,
+                "message": "系统停止失败，请稍后再试"
+            })
+        
+        # 等待控制器线程结束
+        if controller_thread and controller_thread.is_alive():
+            logger.info("Waiting for controller thread to terminate...")
+            controller_thread.join(timeout=15)  # 增加等待时间
+            if controller_thread.is_alive():
+                logger.warning("Controller thread did not terminate within timeout")
+                return jsonify({
+                    "success": False,
+                    "message": "系统停止超时，请稍后再试"
+                })
+        
+        # 重置控制器状态
+        logger.info("System successfully stopped, resetting controller state")
+        # 保留controller引用但标记为已停止，而不是设为None
+        # 这样前端仍然可以获取到controller的状态
+        # controller = None
+        controller_thread = None
+        
+        return jsonify({
+            "success": True,
+            "message": "系统已停止"
+        })
+    except Exception as e:
+        logger.error(f"Error stopping system: {str(e)}")
+        return jsonify({
+            "success": False,
+            "message": f"停止系统时发生错误: {str(e)}"
+        })
 
 @app.route('/api/forecast')
 def get_forecast():

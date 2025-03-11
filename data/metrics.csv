@@ -1,0 +1,2 @@
+timestamp,cpu_percent,memory_percent,disk_usage,network_io
+2025-03-11T17:52:42.596451,40.1,67.5,5.8,"{'bytes_sent': 7081578863, 'bytes_recv': 26824686709, 'packets_sent': 39080840, 'packets_recv': 3323164, 'errin': 0, 'errout': 0, 'dropin': 0, 'dropout': 0}"
